@@ -339,7 +339,12 @@
   </div>
 
   <h1>{{ title }} app is running!</h1>
-  <app-heroes></app-heroes>
+  <nav>
+    <a routerLink="/heroes">Heroes</a>
+  </nav>
+  <!-- <app-heroes></app-heroes> -->
+  <router-outlet></router-outlet>
+  <app-messages></app-messages>
 
   <!-- Resources -->
   <h2>Resources</h2>
@@ -533,5 +538,5 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 
+<!-- <router-outlet></router-outlet> -->
 
-<router-outlet></router-outlet>
